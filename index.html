@@ -1,0 +1,164 @@
+<html>
+    <head>
+
+        <title>All About Sheeep</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        
+        <div class="header">
+            <h1>Sheep Trivia!</h1>
+        </div>
+
+        <div class="knowledge">
+            <h1>Quick Information Session</h1>
+        </div>
+
+        <div class="container">
+
+
+            <div class="knowledgeBox">
+                
+                <h1 style="text-align: center;">What are sheep?</h1>
+                <p>
+                    <b>Sheep</b> are <u><i>domesticated herbivores</i></u> commonly raised for their <b>wool, meat, and milk</b>. 
+                    They belong to the genus <i>*Ovis* </i>
+                    and are one of the oldest <i>domesticated animals</i>, with a history 
+                    spanning over 10,000 years. <b>Sheep</b> are known for their gentle nature 
+                    and strong flocking instinct, often staying close together for safety.
+                    They are grazers, feeding on grass and other vegetation. <b>Sheep</b> are
+                    found in a wide range of environments, from mountain ranges to 
+                    lowland pastures, and are integral to many agricultural economies
+                    worldwide.
+                </p>
+
+                <p>
+                    <b>Sheep</b> are also important for their role in agriculture,
+                     particularly in wool production. Wool is sheared from
+                      the <b>sheep</b> once a year and is used to make a variety 
+                      of textiles, including clothing and blankets.
+                       In addition to wool, <b>sheep</b> provide a source of meat, 
+                       commonly known as lamb or mutton, depending on the 
+                       age of the animal. <b>Sheep</b> milk is also used to 
+                       produce <i>cheese</i>, such as <u><i>feta</i></u> and <u><i>manchego</i></u>. Their 
+                       adaptability to various climates makes them a 
+                       valuable resource in many regions around the world.
+                </p>
+                
+                <p><b>Sheep</b>. If you want to learn more about sheep, click on <a href="https://opensanctuary.org/fun-facts-about-sheep/?gad_source=1">this website</a></p>
+
+                <p><b>Sheep</b>. If you want to see a picture of sheep. Click on <a href="sheep.webp">me</a></p>
+
+
+                <img class="centerImage" src="sheep.webp" alt="Caring for Sheep">
+
+                <h2>The Ratio of People to Sheep in Different Countries</h2>
+                
+                <table>
+                    <tr>
+                        <td><h3>Country</h3></td>
+                        <td><h3>Ratio</h3></td>
+                    </tr>
+
+                    <tr>
+                        <td>New Zealand</td>
+                        <td>1 person per 6 sheep</td>
+                    </tr>
+
+                    <tr>
+                        <td>Australia</td>
+                        <td>1 person to 3.3 sheep</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wales</td>
+                        <td>1 person to 3 sheep</td>
+                    </tr>
+
+                    <tr>
+                        <td>China</td>
+                        <td>1 person to 0.14 sheep</td>
+                    </tr>
+                </table>
+
+
+                <h2>Quick Facts to Know about Sheep</h2>
+                <ul>
+                    <li>Sheep are herbivores and graze on grass.</li>
+                    <li>They are domesticated for wool, meat, and milk.</li>
+                    <li>Sheep are known for their strong flocking instinct.</li>
+                    <li>They are raised worldwide for agricultural purposes.</li>
+                </ul>
+
+                <p>
+                    
+                </p>
+            </div>
+
+
+            <div class="trivia">
+                <h1>Triva Session</h1>
+            </div>
+
+
+            <div class="question1" style="margin-left: 9px;">
+
+                <h2>Part 1: Multiple Choice</h2>
+
+                <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+
+                <button id="one" onclick="changeColor('red', 'one');" style="margin-left: 9px;">6 People per 1 Sheep</button>
+                <button id="two" onclick="changeColor('red', 'two');">3 People per 1 Sheep</button>
+                <button id="three" onclick="changeColor('red', 'three');">1 People per 1 Sheep</button>
+                <button id="four" onclick="changeColor('red', 'four');">1 People per 1 Sheep</button>
+                <button id="five" onclick="changeColor('green', 'five');">1 People per 6 Sheep</button>
+                                
+                <p id="answer" style="text-align:left; font-size:40px; font-weight: 900;"></p>
+
+            </div>
+
+
+            <div class="freeSpace" style="margin: 130px;">
+
+
+            </div>
+
+
+            <div class="question2" style="margin-left: 9px;">
+
+                <h2>Part 2: Free Response, out of syllabus question</h2>
+
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+
+                <form>
+                    <input id="answerInput" class="input" style="border: 1px; border-color: black; border-style: solid; width: 300px; height: 10px; padding: 10px; margin-left: 9px;">
+                    <button type="button" onclick="checkAnswer()" style="border: 1px solid black; width: 50px; height: 20px; box-sizing: border-box; ">Enter</button>
+                </form>
+
+                <p id="secondAnswer" style="text-align:left; font-size:40px; font-weight: 900;"></p>
+
+
+            </div>  
+
+
+            <div class="freeSpace" style="margin: 900px;">
+
+
+            </div>
+
+
+            <div class="winner" id="winner">
+                <h1>You Win!!!</h1>
+            </div>
+
+
+        </div>
+        
+
+    </body>
+</html>
