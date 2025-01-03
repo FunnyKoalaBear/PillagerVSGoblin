@@ -1,8 +1,8 @@
 # Pillager VS Goblin
-#### Video Demo
+#### Video Demo:
 https://youtu.be/je0p1-1F_Cc
 
-#### Description
+#### Description:
 Pillager VS Goblin is a 2D action game built using the Python-based pygame library. It offers a fast-paced, engaging gaming experience where players take on the role of a pillager and must face off against a persistent goblin. With its nostalgic arcade feel, simple mechanics, and visually appealing design, this project was inspired by the classic game "Dungeons and Dragons," a childhood favorite that introduced me to the world of arcade gaming.
 
 ### How to Play the Game
